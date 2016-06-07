@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/ygit/YOPhotoGallery.git", :tag => "1.0" }
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
 end
