@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/ygit/YOPhotoGallery"
 
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
   s.author       = { "Yogesh Singh" => "yogesh.singh.2810@gmail.com" }
   
@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/ygit/YOPhotoGallery.git", :tag => "1.0" }
 
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  # s.exclude_files = "Classes/Exclude"
 
 end
