@@ -10,15 +10,14 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/ygit/YOPhotoGallery"
-
-  s.license      = { :type => "MIT", :file => "LICENSE" }
-
+  s.license      = "MIT"
   s.author       = { "Yogesh Singh" => "yogesh.singh.2810@gmail.com" }
-  
   s.platform     = :ios, "5.0"
-
   s.source       = { :git => "https://github.com/ygit/YOPhotoGallery.git", :tag => "1.0" }
-
   s.source_files  = "*"
+  
+  s.dependency "Masonry"
+  s.dependency "SDWebImage"
+  s.dependency "TTTAttributedLabel"
 
 end
