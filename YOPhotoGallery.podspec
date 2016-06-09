@@ -14,8 +14,8 @@ Pod::Spec.new do |s|
   s.author       = { "Yogesh Singh" => "yogesh.singh.2810@gmail.com" }
   s.platform     = :ios, "5.0"
   s.source       = { :git => "https://github.com/ygit/YOPhotoGallery.git", :tag => "1.2" }
-  s.source_files  = "MHVideoPhotoGallery/**/*.{h,m}"
-
+  s.source_files = "MHVideoPhotoGallery/**/*.{h,m,png}"
+  s.framework    = "Foundation"
   s.dependency "Masonry"
   s.dependency "SDWebImage"
   s.dependency "TTTAttributedLabel"

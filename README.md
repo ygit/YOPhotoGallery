@@ -11,8 +11,8 @@ and, adds ability to share custom text alongwith the assets.
 
 ## Podfile
 ```ruby
-platform :ios, '7.0'
-pod 'MHVideoPhotoGallery'
+platform :ios, '5.0'
+pod 'YOPhotoGallery'
 ```
 ##Supported Videos
 ```ruby
