@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "YOPhotoGallery"
-  s.version      = "1.2"
+  s.version      = "1.3"
   s.summary      = "A fork on MHVideoPhotoGallery, mended heavily to suit our needs."
 
   s.description  = <<-DESC
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "Yogesh Singh" => "yogesh.singh.2810@gmail.com" }
   s.platform     = :ios, "5.0"
-  s.source       = { :git => "https://github.com/ygit/YOPhotoGallery.git", :tag => "1.2" }
+  s.source       = { :git => "https://github.com/ygit/YOPhotoGallery.git", :tag => "1.3" }
   s.source_files = "MHVideoPhotoGallery/**/*.{h,m,png}"
   s.framework    = "Foundation"
   s.dependency "Masonry"
